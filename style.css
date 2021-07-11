@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    animation: change 4s infinite;
+}
+
+@keyframes change{
+    0%{background-color:red;}
+    20%{background-color:orangered;}
+    40%{background-color:orange;}
+    60%{background-color:yellow;}
+    80%{background-color:orange;}
+    100%{background-color:red;}
+}
